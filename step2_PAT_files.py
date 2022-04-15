@@ -18,7 +18,16 @@ from os import path
 import sys
 inFiles = []
 fileOfFiles = open('file_of_files.txt', 'r')
-linesOfFiles = fileOfFiles.readlines()
+linesOfFiles = list()
+
+while True:
+    line = fileOfFiles.readline()
+    if line:
+        linesOfFiles.append(line)
+    else:
+        break
+
+
 for line in linesOfFiles:
     print('am I in file?')
     print(line)
