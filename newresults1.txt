@@ -1,0 +1,10 @@
+sh: nvidia-smi: command not found
+['allSonicTriton']
+[<FWCore.ParameterSet.Config.ModifierChain object at 0x7f04f63b9ac0>]
+am I in file?
+7BED16E5-4FAC-4149-A69D-14140582F6EF.root
+
+/home/users/nirmalthomas26/sonic-test-2/CMSSW_12_0_0_pre5/src/sonic-workflows/7BED16E5-4FAC-4149-A69D-14140582F6EF.root
+Condition -  True
+Inside append.
+appending file:/home/users/nirmalthomas26/sonic-test-2/CMSSW_12_0_0_pre5/src/sonic-workflows/7BED16E5-4FAC-4149-A69D-14140582F6EF.root

@@ -1,0 +1,1731 @@
+sh: nvidia-smi: command not found
+['allSonicTriton']
+[<FWCore.ParameterSet.Config.ModifierChain object at 0x7f92626e2ac0>]
+am I in file?
+7BED16E5-4FAC-4149-A69D-14140582F6EF.root
+
+/home/users/nirmalthomas26/sonic-test-2/CMSSW_12_0_0_pre5/src/sonic-workflows/7BED16E5-4FAC-4149-A69D-14140582F6EF.root
+2022-04-17 22:03:03.020547: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-04-17 22:03:03.089278: I tensorflow/core/platform/profile_utils/cpu_utils.cc:114] CPU Frequency: 2294620000 Hz
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 0 passed = 0 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 Flag_HBHENoiseFilter
+TrigReport     1    1          0          0          0          0 Flag_HBHENoiseIsoFilter
+TrigReport     1    2          0          0          0          0 Flag_CSCTightHaloFilter
+TrigReport     1    3          0          0          0          0 Flag_CSCTightHaloTrkMuUnvetoFilter
+TrigReport     1    4          0          0          0          0 Flag_CSCTightHalo2015Filter
+TrigReport     1    5          0          0          0          0 Flag_globalTightHalo2016Filter
+TrigReport     1    6          0          0          0          0 Flag_globalSuperTightHalo2016Filter
+TrigReport     1    7          0          0          0          0 Flag_HcalStripHaloFilter
+TrigReport     1    8          0          0          0          0 Flag_hcalLaserEventFilter
+TrigReport     1    9          0          0          0          0 Flag_EcalDeadCellTriggerPrimitiveFilter
+TrigReport     1   10          0          0          0          0 Flag_EcalDeadCellBoundaryEnergyFilter
+TrigReport     1   11          0          0          0          0 Flag_ecalBadCalibFilter
+TrigReport     1   12          0          0          0          0 Flag_goodVertices
+TrigReport     1   13          0          0          0          0 Flag_eeBadScFilter
+TrigReport     1   14          0          0          0          0 Flag_ecalLaserCorrFilter
+TrigReport     1   15          0          0          0          0 Flag_trkPOGFilters
+TrigReport     1   16          0          0          0          0 Flag_chargedHadronTrackResolutionFilter
+TrigReport     1   17          0          0          0          0 Flag_muonBadTrackFilter
+TrigReport     1   18          0          0          0          0 Flag_BadChargedCandidateFilter
+TrigReport     1   19          0          0          0          0 Flag_BadPFMuonFilter
+TrigReport     1   20          0          0          0          0 Flag_BadPFMuonDzFilter
+TrigReport     1   21          0          0          0          0 Flag_hfNoisyHitsFilter
+TrigReport     1   22          0          0          0          0 Flag_BadChargedCandidateSummer16Filter
+TrigReport     1   23          0          0          0          0 Flag_BadPFMuonSummer16Filter
+TrigReport     1   24          0          0          0          0 Flag_trkPOG_manystripclus53X
+TrigReport     1   25          0          0          0          0 Flag_trkPOG_toomanystripclus53X
+TrigReport     1   26          0          0          0          0 Flag_trkPOG_logErrorTooManyClusters
+TrigReport     1   27          0          0          0          0 Flag_METFilters
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#   Executed     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 endjob_step
+TrigReport     0    1          0          0          0          0 MINIAODSIMoutput_step
+
+TrigReport ---------- Modules in Path: Flag_HBHENoiseFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 HBHENoiseFilterResultProducer
+TrigReport     1    1          0          0          0          0 HBHENoiseFilter
+
+TrigReport ---------- Modules in Path: Flag_HBHENoiseIsoFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 HBHENoiseFilterResultProducer
+TrigReport     1    1          0          0          0          0 HBHENoiseIsoFilter
+
+TrigReport ---------- Modules in Path: Flag_CSCTightHaloFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 CSCTightHaloFilter
+
+TrigReport ---------- Modules in Path: Flag_CSCTightHaloTrkMuUnvetoFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 CSCTightHaloTrkMuUnvetoFilter
+
+TrigReport ---------- Modules in Path: Flag_CSCTightHalo2015Filter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 CSCTightHalo2015Filter
+
+TrigReport ---------- Modules in Path: Flag_globalTightHalo2016Filter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 globalTightHalo2016Filter
+
+TrigReport ---------- Modules in Path: Flag_globalSuperTightHalo2016Filter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 globalSuperTightHalo2016Filter
+
+TrigReport ---------- Modules in Path: Flag_HcalStripHaloFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 HcalStripHaloFilter
+
+TrigReport ---------- Modules in Path: Flag_hcalLaserEventFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 hcalLaserEventFilter
+
+TrigReport ---------- Modules in Path: Flag_EcalDeadCellTriggerPrimitiveFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 EcalDeadCellTriggerPrimitiveFilter
+
+TrigReport ---------- Modules in Path: Flag_EcalDeadCellBoundaryEnergyFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 EcalDeadCellBoundaryEnergyFilter
+
+TrigReport ---------- Modules in Path: Flag_ecalBadCalibFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 ecalBadCalibFilter
+
+TrigReport ---------- Modules in Path: Flag_goodVertices ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 primaryVertexFilter
+
+TrigReport ---------- Modules in Path: Flag_eeBadScFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 eeBadScFilter
+
+TrigReport ---------- Modules in Path: Flag_ecalLaserCorrFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 ecalLaserCorrFilter
+
+TrigReport ---------- Modules in Path: Flag_trkPOGFilters ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 manystripclus53X
+TrigReport     1    1          0          0          0          0 toomanystripclus53X
+TrigReport     1    2          0          0          0          0 logErrorTooManyClusters
+
+TrigReport ---------- Modules in Path: Flag_chargedHadronTrackResolutionFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 chargedHadronTrackResolutionFilter
+
+TrigReport ---------- Modules in Path: Flag_muonBadTrackFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 muonBadTrackFilter
+
+TrigReport ---------- Modules in Path: Flag_BadChargedCandidateFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 BadChargedCandidateFilter
+
+TrigReport ---------- Modules in Path: Flag_BadPFMuonFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 BadPFMuonFilter
+
+TrigReport ---------- Modules in Path: Flag_BadPFMuonDzFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 BadPFMuonDzFilter
+
+TrigReport ---------- Modules in Path: Flag_hfNoisyHitsFilter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 hfNoisyHitsFilter
+
+TrigReport ---------- Modules in Path: Flag_BadChargedCandidateSummer16Filter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 BadChargedCandidateSummer16Filter
+
+TrigReport ---------- Modules in Path: Flag_BadPFMuonSummer16Filter ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 BadPFMuonSummer16Filter
+
+TrigReport ---------- Modules in Path: Flag_trkPOG_manystripclus53X ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 manystripclus53X
+
+TrigReport ---------- Modules in Path: Flag_trkPOG_toomanystripclus53X ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 toomanystripclus53X
+
+TrigReport ---------- Modules in Path: Flag_trkPOG_logErrorTooManyClusters ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 logErrorTooManyClusters
+
+TrigReport ---------- Modules in Path: Flag_METFilters ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0          0          0          0          0 goodVertices
+TrigReport     1    1          0          0          0          0 globalSuperTightHalo2016Filter
+TrigReport     1    2          0          0          0          0 HBHENoiseFilterResultProducer
+TrigReport     1    3          0          0          0          0 HBHENoiseFilter
+TrigReport     1    4          0          0          0          0 HBHENoiseIsoFilter
+TrigReport     1    5          0          0          0          0 EcalDeadCellTriggerPrimitiveFilter
+TrigReport     1    6          0          0          0          0 BadPFMuonFilter
+TrigReport     1    7          0          0          0          0 BadPFMuonDzFilter
+TrigReport     1    8          0          0          0          0 hfNoisyHitsFilter
+TrigReport     1    9          0          0          0          0 eeBadScFilter
+TrigReport     1   10          0          0          0          0 ecalBadCalibFilter
+
+TrigReport ------ Modules in End-Path: endjob_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 MEtoEDMConverter
+
+TrigReport ------ Modules in End-Path: MINIAODSIMoutput_step ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0          0          0          0          0 MINIAODSIMoutput
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited   Executed     Passed     Failed      Error Name
+TrigReport          0          0          0          0          0 BadChargedCandidateFilter
+TrigReport          0          0          0          0          0 BadChargedCandidateSummer16Filter
+TrigReport          0          0          0          0          0 BadPFMuonDzFilter
+TrigReport          0          0          0          0          0 BadPFMuonFilter
+TrigReport          0          0          0          0          0 BadPFMuonSummer16Filter
+TrigReport          0          0          0          0          0 CHSCands
+TrigReport          0          0          0          0          0 CSCTightHalo2015Filter
+TrigReport          0          0          0          0          0 CSCTightHaloFilter
+TrigReport          0          0          0          0          0 CSCTightHaloTrkMuUnvetoFilter
+TrigReport          0          0          0          0          0 EcalDeadCellBoundaryEnergyFilter
+TrigReport          0          0          0          0          0 EcalDeadCellTriggerPrimitiveFilter
+TrigReport          0          0          0          0          0 Flag_BadChargedCandidateFilter
+TrigReport          0          0          0          0          0 Flag_BadChargedCandidateSummer16Filter
+TrigReport          0          0          0          0          0 Flag_BadPFMuonDzFilter
+TrigReport          0          0          0          0          0 Flag_BadPFMuonFilter
+TrigReport          0          0          0          0          0 Flag_BadPFMuonSummer16Filter
+TrigReport          0          0          0          0          0 Flag_CSCTightHalo2015Filter
+TrigReport          0          0          0          0          0 Flag_CSCTightHaloFilter
+TrigReport          0          0          0          0          0 Flag_CSCTightHaloTrkMuUnvetoFilter
+TrigReport          0          0          0          0          0 Flag_EcalDeadCellBoundaryEnergyFilter
+TrigReport          0          0          0          0          0 Flag_EcalDeadCellTriggerPrimitiveFilter
+TrigReport          0          0          0          0          0 Flag_HBHENoiseFilter
+TrigReport          0          0          0          0          0 Flag_HBHENoiseIsoFilter
+TrigReport          0          0          0          0          0 Flag_HcalStripHaloFilter
+TrigReport          0          0          0          0          0 Flag_METFilters
+TrigReport          0          0          0          0          0 Flag_chargedHadronTrackResolutionFilter
+TrigReport          0          0          0          0          0 Flag_ecalBadCalibFilter
+TrigReport          0          0          0          0          0 Flag_ecalLaserCorrFilter
+TrigReport          0          0          0          0          0 Flag_eeBadScFilter
+TrigReport          0          0          0          0          0 Flag_globalSuperTightHalo2016Filter
+TrigReport          0          0          0          0          0 Flag_globalTightHalo2016Filter
+TrigReport          0          0          0          0          0 Flag_goodVertices
+TrigReport          0          0          0          0          0 Flag_hcalLaserEventFilter
+TrigReport          0          0          0          0          0 Flag_hfNoisyHitsFilter
+TrigReport          0          0          0          0          0 Flag_muonBadTrackFilter
+TrigReport          0          0          0          0          0 Flag_trkPOGFilters
+TrigReport          0          0          0          0          0 Flag_trkPOG_logErrorTooManyClusters
+TrigReport          0          0          0          0          0 Flag_trkPOG_manystripclus53X
+TrigReport          0          0          0          0          0 Flag_trkPOG_toomanystripclus53X
+TrigReport          0          0          0          0          0 HBHENoiseFilter
+TrigReport          0          0          0          0          0 HBHENoiseFilterResultProducer
+TrigReport          0          0          0          0          0 HBHENoiseIsoFilter
+TrigReport          0          0          0          0          0 HcalStripHaloFilter
+TrigReport          0          0          0          0          0 MEtoEDMConverter
+TrigReport          0          0          0          0          0 MINIAODSIMoutput
+TrigReport          0          0          0          0          0 MINIAODSIMoutput_step
+TrigReport          0          0          0          0          0 NjettinessAK8Puppi
+TrigReport          0          0          0          0          0 NjettinessAK8Subjets
+TrigReport          0          0          0          0          0 QGTagger
+TrigReport          0          0          0          0          0 TriggerResults
+TrigReport          0          0          0          0          0 TrkCands
+TrigReport          0          0          0          0          0 ak4GenJetFlavourInfos
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastL2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastL2L3CorrectorNoHF
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastL2L3ResidualCorrectorNoHF
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastjetCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL1FastjetCorrectorNoHF
+TrigReport          0          0          0          0          0 ak4PFCHSL2RelativeCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL2RelativeCorrectorNoHF
+TrigReport          0          0          0          0          0 ak4PFCHSL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSL3AbsoluteCorrectorNoHF
+TrigReport          0          0          0          0          0 ak4PFCHSResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFCHSResidualCorrectorNoHF
+TrigReport          0          0          0          0          0 ak4PFJetTracksAssociatorAtVertexBoosted
+TrigReport          0          0          0          0          0 ak4PFJetsCHSNoHF
+TrigReport          0          0          0          0          0 ak4PFJetsLegacyHPSPiZerosBoosted
+TrigReport          0          0          0          0          0 ak4PFJetsPuppi
+TrigReport          0          0          0          0          0 ak4PFJetsRecoTauChargedHadronsBoosted
+TrigReport          0          0          0          0          0 ak4PFPuppiL1FastL2L3Corrector
+TrigReport          0          0          0          0          0 ak4PFPuppiL1FastL2L3ResidualCorrector
+TrigReport          0          0          0          0          0 ak4PFPuppiL1FastjetCorrector
+TrigReport          0          0          0          0          0 ak4PFPuppiL2RelativeCorrector
+TrigReport          0          0          0          0          0 ak4PFPuppiL3AbsoluteCorrector
+TrigReport          0          0          0          0          0 ak4PFPuppiResidualCorrector
+TrigReport          0          0          0          0          0 ak8GenJetsNoNuConstituents
+TrigReport          0          0          0          0          0 ak8GenJetsNoNuSoftDrop
+TrigReport          0          0          0          0          0 ak8PFJetsPuppi
+TrigReport          0          0          0          0          0 ak8PFJetsPuppiConstituents
+TrigReport          0          0          0          0          0 ak8PFJetsPuppiSoftDrop
+TrigReport          0          0          0          0          0 ak8PFJetsPuppiSoftDropMass
+TrigReport          0          0          0          0          0 basicJetsForMet
+TrigReport          0          0          0          0          0 basicJetsForMetNoHF
+TrigReport          0          0          0          0          0 basicJetsForMetPuppi
+TrigReport          0          0          0          0          0 boostedTauSeeds
+TrigReport          0          0          0          0          0 bunchSpacingProducer
+TrigReport          0          0          0          0          0 ca8PFJetsCHSprunedForBoostedTaus
+TrigReport          0          0          0          0          0 calibratedElectrons
+TrigReport          0          0          0          0          0 calibratedPhotons
+TrigReport          0          0          0          0          0 caloJetMap
+TrigReport          0          0          0          0          0 chargedHadronTrackResolutionFilter
+TrigReport          0          0          0          0          0 cleanedPatJets
+TrigReport          0          0          0          0          0 cleanedPatJetsNoHF
+TrigReport          0          0          0          0          0 cleanedPatJetsPuppi
+TrigReport          0          0          0          0          0 combinatoricRecoTausBoosted
+TrigReport          0          0          0          0          0 corrPfMetType1
+TrigReport          0          0          0          0          0 corrPfMetType1NoHF
+TrigReport          0          0          0          0          0 corrPfMetType1Puppi
+TrigReport          0          0          0          0          0 deepMETsResolutionTune
+TrigReport          0          0          0          0          0 deepMETsResponseTune
+TrigReport          0          0          0          0          0 deepTau2017v2p1
+TrigReport          0          0          0          0          0 ecalBadCalibFilter
+TrigReport          0          0          0          0          0 ecalLaserCorrFilter
+TrigReport          0          0          0          0          0 eeBadScFilter
+TrigReport          0          0          0          0          0 egmElectronPUPPIIsolation
+TrigReport          0          0          0          0          0 egmElectronPUPPINoLeptonsIsolation
+TrigReport          0          0          0          0          0 egmGsfElectronIDs
+TrigReport          0          0          0          0          0 egmPhotonIDs
+TrigReport          0          0          0          0          0 egmPhotonPUPPIIsolation
+TrigReport          0          0          0          0          0 elPFIsoDepositChargedAllPAT
+TrigReport          0          0          0          0          0 elPFIsoDepositChargedPAT
+TrigReport          0          0          0          0          0 elPFIsoDepositGammaPAT
+TrigReport          0          0          0          0          0 elPFIsoDepositNeutralPAT
+TrigReport          0          0          0          0          0 elPFIsoDepositPUPAT
+TrigReport          0          0          0          0          0 elPFIsoValueCharged04NoPFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueCharged04PFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueChargedAll04NoPFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueChargedAll04PFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueGamma04NoPFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueGamma04PFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueNeutral04NoPFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValueNeutral04PFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValuePU04NoPFIdPAT
+TrigReport          0          0          0          0          0 elPFIsoValuePU04PFIdPAT
+TrigReport          0          0          0          0          0 electronMVAValueMapProducer
+TrigReport          0          0          0          0          0 electronMatch
+TrigReport          0          0          0          0          0 endjob_step
+TrigReport          0          0          0          0          0 globalSuperTightHalo2016Filter
+TrigReport          0          0          0          0          0 globalTightHalo2016Filter
+TrigReport          0          0          0          0          0 goodOfflinePrimaryVerticesNoHF
+TrigReport          0          0          0          0          0 goodVertices
+TrigReport          0          0          0          0          0 hcalLaserEventFilter
+TrigReport          0          0          0          0          0 hfJetShowerShape
+TrigReport          0          0          0          0          0 hfNoisyHitsFilter
+TrigReport          0          0          0          0          0 hpsPFTauBasicDiscriminators
+TrigReport          0          0          0          0          0 hpsPFTauBasicDiscriminatorsBoosted
+TrigReport          0          0          0          0          0 hpsPFTauBasicDiscriminatorsdR03
+TrigReport          0          0          0          0          0 hpsPFTauBasicDiscriminatorsdR03Boosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByDeadECALElectronRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByDeadECALElectronRejectionBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByDecayModeFindingBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByDecayModeFindingNewDMsBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLT
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTraw
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTrawBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLT
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTraw
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTrawBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLT
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTraw
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTrawBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA6ElectronRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA6ElectronRejectionBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA6rawElectronRejection
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMVA6rawElectronRejectionBoosted
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMuonRejection3
+TrigReport          0          0          0          0          0 hpsPFTauDiscriminationByMuonRejection3Boosted
+TrigReport          0          0          0          0          0 hpsPFTauPrimaryVertexProducerBoosted
+TrigReport          0          0          0          0          0 hpsPFTauProducerBoosted
+TrigReport          0          0          0          0          0 hpsPFTauProducerSansRefsBoosted
+TrigReport          0          0          0          0          0 hpsPFTauSecondaryVertexProducerBoosted
+TrigReport          0          0          0          0          0 hpsPFTauTransverseImpactParametersBoosted
+TrigReport          0          0          0          0          0 hpsSelectionDiscriminatorBoosted
+TrigReport          0          0          0          0          0 isolatedTracks
+TrigReport          0          0          0          0          0 jetSelectorForMet
+TrigReport          0          0          0          0          0 jetSelectorForMetNoHF
+TrigReport          0          0          0          0          0 jetSelectorForMetPuppi
+TrigReport          0          0          0          0          0 logErrorTooManyClusters
+TrigReport          0          0          0          0          0 lostTracks
+TrigReport          0          0          0          0          0 lostTracksToGenAssociation
+TrigReport          0          0          0          0          0 lowPtElectronMatch
+TrigReport          0          0          0          0          0 lowPtGsfElectronID
+TrigReport          0          0          0          0          0 lowPtGsfElectrons
+TrigReport          0          0          0          0          0 lowPtGsfLinks
+TrigReport          0          0          0          0          0 manystripclus53X
+TrigReport          0          0          0          0          0 muPFIsoDepositChargedAllPAT
+TrigReport          0          0          0          0          0 muPFIsoDepositChargedPAT
+TrigReport          0          0          0          0          0 muPFIsoDepositGammaPAT
+TrigReport          0          0          0          0          0 muPFIsoDepositNeutralPAT
+TrigReport          0          0          0          0          0 muPFIsoDepositPUPAT
+TrigReport          0          0          0          0          0 muPFIsoValueCharged04PAT
+TrigReport          0          0          0          0          0 muPFIsoValueChargedAll04PAT
+TrigReport          0          0          0          0          0 muPFIsoValueGamma04PAT
+TrigReport          0          0          0          0          0 muPFIsoValueNeutral04PAT
+TrigReport          0          0          0          0          0 muPFIsoValuePU04PAT
+TrigReport          0          0          0          0          0 muonBadTrackFilter
+TrigReport          0          0          0          0          0 muonMatch
+TrigReport          0          0          0          0          0 muonPUPPIIsolation
+TrigReport          0          0          0          0          0 muonPUPPINoLeptonsIsolation
+TrigReport          0          0          0          0          0 nb1AK8PuppiSoftDrop
+TrigReport          0          0          0          0          0 nb1AK8PuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 nb2AK8PuppiSoftDrop
+TrigReport          0          0          0          0          0 nb2AK8PuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 noHFCands
+TrigReport          0          0          0          0          0 offlineSlimmedPrimaryVertices
+TrigReport          0          0          0          0          0 offlineSlimmedPrimaryVerticesWithBS
+TrigReport          0          0          0          0          0 oniaPhotonCandidates
+TrigReport          0          0          0          0          0 ootPhotonMatch
+TrigReport          0          0          0          0          0 packedGenParticles
+TrigReport          0          0          0          0          0 packedPFCandidateToGenAssociation
+TrigReport          0          0          0          0          0 packedPFCandidates
+TrigReport          0          0          0          0          0 packedPatJetsAK8
+TrigReport          0          0          0          0          0 packedpuppi
+TrigReport          0          0          0          0          0 particleFlowDisplacedVertex
+TrigReport          0          0          0          0          0 particleFlowPtrs
+TrigReport          0          0          0          0          0 patCHSMet
+TrigReport          0          0          0          0          0 patCaloMet
+TrigReport          0          0          0          0          0 patElectrons
+TrigReport          0          0          0          0          0 patJetCharge
+TrigReport          0          0          0          0          0 patJetCorrFactors
+TrigReport          0          0          0          0          0 patJetCorrFactorsAK8PFPuppiSoftDrop
+TrigReport          0          0          0          0          0 patJetCorrFactorsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 patJetCorrFactorsAK8Puppi
+TrigReport          0          0          0          0          0 patJetCorrFactorsNoHF
+TrigReport          0          0          0          0          0 patJetCorrFactorsPuppi
+TrigReport          0          0          0          0          0 patJetCorrFactorsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 patJetCorrFactorsSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 patJetCorrFactorsTransientCorrectedSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 patJetCorrFactorsTransientCorrectedSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 patJetFlavourAssociation
+TrigReport          0          0          0          0          0 patJetFlavourAssociationAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 patJetFlavourAssociationAK8Puppi
+TrigReport          0          0          0          0          0 patJetFlavourAssociationPuppi
+TrigReport          0          0          0          0          0 patJetGenJetMatch
+TrigReport          0          0          0          0          0 patJetGenJetMatchAK8PFPuppiSoftDrop
+TrigReport          0          0          0          0          0 patJetGenJetMatchAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 patJetGenJetMatchAK8Puppi
+TrigReport          0          0          0          0          0 patJetGenJetMatchPuppi
+TrigReport          0          0          0          0          0 patJetPartonMatch
+TrigReport          0          0          0          0          0 patJetPartonMatchAK8PFPuppiSoftDrop
+TrigReport          0          0          0          0          0 patJetPartonMatchAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 patJetPartonMatchAK8Puppi
+TrigReport          0          0          0          0          0 patJetPartonMatchPuppi
+TrigReport          0          0          0          0          0 patJetPartons
+TrigReport          0          0          0          0          0 patJets
+TrigReport          0          0          0          0          0 patJetsAK8PFPuppiSoftDrop
+TrigReport          0          0          0          0          0 patJetsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 patJetsAK8Puppi
+TrigReport          0          0          0          0          0 patJetsNoHF
+TrigReport          0          0          0          0          0 patJetsPuppi
+TrigReport          0          0          0          0          0 patLowPtElectrons
+TrigReport          0          0          0          0          0 patMETs
+TrigReport          0          0          0          0          0 patMETsNoHF
+TrigReport          0          0          0          0          0 patMETsPuppi
+TrigReport          0          0          0          0          0 patMuons
+TrigReport          0          0          0          0          0 patOOTPhotons
+TrigReport          0          0          0          0          0 patPFMet
+TrigReport          0          0          0          0          0 patPFMetNoHF
+TrigReport          0          0          0          0          0 patPFMetPuppi
+TrigReport          0          0          0          0          0 patPFMetT0Corr
+TrigReport          0          0          0          0          0 patPFMetT0CorrNoHF
+TrigReport          0          0          0          0          0 patPFMetT0CorrPuppi
+TrigReport          0          0          0          0          0 patPFMetT0pcT1
+TrigReport          0          0          0          0          0 patPFMetT0pcT1NoHF
+TrigReport          0          0          0          0          0 patPFMetT0pcT1Puppi
+TrigReport          0          0          0          0          0 patPFMetT0pcT1SmearTxy
+TrigReport          0          0          0          0          0 patPFMetT0pcT1SmearTxyNoHF
+TrigReport          0          0          0          0          0 patPFMetT0pcT1SmearTxyPuppi
+TrigReport          0          0          0          0          0 patPFMetT0pcT1Txy
+TrigReport          0          0          0          0          0 patPFMetT0pcT1TxyNoHF
+TrigReport          0          0          0          0          0 patPFMetT0pcT1TxyPuppi
+TrigReport          0          0          0          0          0 patPFMetT1
+TrigReport          0          0          0          0          0 patPFMetT1ElectronEnDown
+TrigReport          0          0          0          0          0 patPFMetT1ElectronEnDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1ElectronEnDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1ElectronEnUp
+TrigReport          0          0          0          0          0 patPFMetT1ElectronEnUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1ElectronEnUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1JetEnDown
+TrigReport          0          0          0          0          0 patPFMetT1JetEnDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1JetEnDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1JetEnUp
+TrigReport          0          0          0          0          0 patPFMetT1JetEnUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1JetEnUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1JetResDown
+TrigReport          0          0          0          0          0 patPFMetT1JetResDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1JetResDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1JetResUp
+TrigReport          0          0          0          0          0 patPFMetT1JetResUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1JetResUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1MuonEnDown
+TrigReport          0          0          0          0          0 patPFMetT1MuonEnDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1MuonEnDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1MuonEnUp
+TrigReport          0          0          0          0          0 patPFMetT1MuonEnUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1MuonEnUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1NoHF
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnDown
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnUp
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1PhotonEnUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1Puppi
+TrigReport          0          0          0          0          0 patPFMetT1Smear
+TrigReport          0          0          0          0          0 patPFMetT1SmearJetResDown
+TrigReport          0          0          0          0          0 patPFMetT1SmearJetResDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1SmearJetResDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1SmearJetResUp
+TrigReport          0          0          0          0          0 patPFMetT1SmearJetResUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1SmearJetResUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1SmearNoHF
+TrigReport          0          0          0          0          0 patPFMetT1SmearPuppi
+TrigReport          0          0          0          0          0 patPFMetT1SmearTxy
+TrigReport          0          0          0          0          0 patPFMetT1SmearTxyNoHF
+TrigReport          0          0          0          0          0 patPFMetT1SmearTxyPuppi
+TrigReport          0          0          0          0          0 patPFMetT1T2Corr
+TrigReport          0          0          0          0          0 patPFMetT1T2CorrNoHF
+TrigReport          0          0          0          0          0 patPFMetT1T2CorrPuppi
+TrigReport          0          0          0          0          0 patPFMetT1T2SmearCorr
+TrigReport          0          0          0          0          0 patPFMetT1T2SmearCorrNoHF
+TrigReport          0          0          0          0          0 patPFMetT1T2SmearCorrPuppi
+TrigReport          0          0          0          0          0 patPFMetT1TauEnDown
+TrigReport          0          0          0          0          0 patPFMetT1TauEnDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1TauEnDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1TauEnUp
+TrigReport          0          0          0          0          0 patPFMetT1TauEnUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1TauEnUpPuppi
+TrigReport          0          0          0          0          0 patPFMetT1Txy
+TrigReport          0          0          0          0          0 patPFMetT1TxyNoHF
+TrigReport          0          0          0          0          0 patPFMetT1TxyPuppi
+TrigReport          0          0          0          0          0 patPFMetT1UnclusteredEnDown
+TrigReport          0          0          0          0          0 patPFMetT1UnclusteredEnDownNoHF
+TrigReport          0          0          0          0          0 patPFMetT1UnclusteredEnDownPuppi
+TrigReport          0          0          0          0          0 patPFMetT1UnclusteredEnUp
+TrigReport          0          0          0          0          0 patPFMetT1UnclusteredEnUpNoHF
+TrigReport          0          0          0          0          0 patPFMetT1UnclusteredEnUpPuppi
+TrigReport          0          0          0          0          0 patPFMetTxy
+TrigReport          0          0          0          0          0 patPFMetTxyCorr
+TrigReport          0          0          0          0          0 patPFMetTxyCorrNoHF
+TrigReport          0          0          0          0          0 patPFMetTxyCorrPuppi
+TrigReport          0          0          0          0          0 patPFMetTxyNoHF
+TrigReport          0          0          0          0          0 patPFMetTxyPuppi
+TrigReport          0          0          0          0          0 patPhotons
+TrigReport          0          0          0          0          0 patSmearedJets
+TrigReport          0          0          0          0          0 patSmearedJetsNoHF
+TrigReport          0          0          0          0          0 patSmearedJetsPuppi
+TrigReport          0          0          0          0          0 patTaus
+TrigReport          0          0          0          0          0 patTausBoosted
+TrigReport          0          0          0          0          0 patTrigger
+TrigReport          0          0          0          0          0 patTrkMet
+TrigReport          0          0          0          0          0 pfAllChargedHadronsPFBRECO
+TrigReport          0          0          0          0          0 pfAllChargedParticlesPFBRECO
+TrigReport          0          0          0          0          0 pfAllNeutralHadronsPFBRECO
+TrigReport          0          0          0          0          0 pfAllPhotonsPFBRECO
+TrigReport          0          0          0          0          0 pfBoostedDoubleSVAK8TagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfBoostedDoubleSVAK8TagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfBoostedDoubleSecondaryVertexAK8BJetTagsAK8Puppi
+TrigReport          0          0          0          0          0 pfCandidateToVertexAssociation
+TrigReport          0          0          0          0          0 pfCandsForUnclusteredUnc
+TrigReport          0          0          0          0          0 pfCandsForUnclusteredUncNoHF
+TrigReport          0          0          0          0          0 pfCandsForUnclusteredUncPuppi
+TrigReport          0          0          0          0          0 pfCandsNoJets
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEle
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoHF
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoMu
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoMuNoHF
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoMuNoTau
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoMuNoTauNoHF
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoMuNoTauPuppi
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoEleNoMuPuppi
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoElePuppi
+TrigReport          0          0          0          0          0 pfCandsNoJetsNoHF
+TrigReport          0          0          0          0          0 pfCandsNoJetsPuppi
+TrigReport          0          0          0          0          0 pfCombinedCvsBJetTagsPuppi
+TrigReport          0          0          0          0          0 pfCombinedCvsLJetTagsPuppi
+TrigReport          0          0          0          0          0 pfCombinedInclusiveSecondaryVertexV2BJetTagsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfCombinedInclusiveSecondaryVertexV2BJetTagsAK8Puppi
+TrigReport          0          0          0          0          0 pfCombinedInclusiveSecondaryVertexV2BJetTagsPuppi
+TrigReport          0          0          0          0          0 pfCombinedMVAV2BJetTagsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfCombinedMVAV2BJetTagsAK8Puppi
+TrigReport          0          0          0          0          0 pfCombinedMVAV2BJetTagsPuppi
+TrigReport          0          0          0          0          0 pfCombinedSecondaryVertexV2BJetTagsAK8Puppi
+TrigReport          0          0          0          0          0 pfCombinedSecondaryVertexV2BJetTagsPuppi
+TrigReport          0          0          0          0          0 pfDeepBoostedDiscriminatorsJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfDeepBoostedJetTagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfDeepBoostedJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfDeepCSVDiscriminatorsJetTags
+TrigReport          0          0          0          0          0 pfDeepCSVDiscriminatorsJetTagsPuppi
+TrigReport          0          0          0          0          0 pfDeepCSVJetTagsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfDeepCSVJetTagsAK8Puppi
+TrigReport          0          0          0          0          0 pfDeepCSVJetTagsPuppi
+TrigReport          0          0          0          0          0 pfDeepCSVTagInfosAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfDeepCSVTagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfDeepCSVTagInfosPuppi
+TrigReport          0          0          0          0          0 pfDeepCSVTagInfosSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfDeepDoubleXTagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfDeepFlavourJetTagsSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfDeepFlavourTagInfosSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfElectrons
+TrigReport          0          0          0          0          0 pfElectronsNoHF
+TrigReport          0          0          0          0          0 pfElectronsPuppi
+TrigReport          0          0          0          0          0 pfHiggsInteractionNetTagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfHiggsInteractionNetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfImpactParameterAK8TagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfImpactParameterAK8TagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfImpactParameterTagInfosAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfImpactParameterTagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfImpactParameterTagInfosPuppi
+TrigReport          0          0          0          0          0 pfImpactParameterTagInfosSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderAK8TagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderAK8TagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderCvsLTagInfosPuppi
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderTagInfosAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderTagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderTagInfosPuppi
+TrigReport          0          0          0          0          0 pfInclusiveSecondaryVertexFinderTagInfosSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfJetBProbabilityBJetTagsPuppi
+TrigReport          0          0          0          0          0 pfJetProbabilityBJetTagsPuppi
+TrigReport          0          0          0          0          0 pfMassDecorrelatedDeepBoostedDiscriminatorsJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMassDecorrelatedDeepBoostedJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMassDecorrelatedParticleNetDiscriminatorsJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMassDecorrelatedParticleNetJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMassIndependentDeepDoubleBvLV2JetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMassIndependentDeepDoubleCvBV2JetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMassIndependentDeepDoubleCvLV2JetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfMetCHS
+TrigReport          0          0          0          0          0 pfMetNoHF
+TrigReport          0          0          0          0          0 pfMetPuppi
+TrigReport          0          0          0          0          0 pfMetT1
+TrigReport          0          0          0          0          0 pfMetT1NoHF
+TrigReport          0          0          0          0          0 pfMetT1Puppi
+TrigReport          0          0          0          0          0 pfMetTrk
+TrigReport          0          0          0          0          0 pfMuons
+TrigReport          0          0          0          0          0 pfMuonsNoHF
+TrigReport          0          0          0          0          0 pfMuonsPuppi
+TrigReport          0          0          0          0          0 pfNoPileUp
+TrigReport          0          0          0          0          0 pfNoPileUpIsoPFBRECO
+TrigReport          0          0          0          0          0 pfNoPileUpJMENoHF
+TrigReport          0          0          0          0          0 pfNoPileUpNoHF
+TrigReport          0          0          0          0          0 pfNoPileUpPuppi
+TrigReport          0          0          0          0          0 pfParticleNetAK4DiscriminatorsJetTagsSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfParticleNetAK4JetTagsSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfParticleNetAK4TagInfosSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 pfParticleNetDiscriminatorsJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfParticleNetJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfParticleNetMassRegressionJetTagsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfParticleNetTagInfosSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 pfPhotons
+TrigReport          0          0          0          0          0 pfPhotonsNoHF
+TrigReport          0          0          0          0          0 pfPhotonsPuppi
+TrigReport          0          0          0          0          0 pfPileUpAllChargedParticlesPFBRECO
+TrigReport          0          0          0          0          0 pfPileUpIsoPFBRECO
+TrigReport          0          0          0          0          0 pfPileUpJMENoHF
+TrigReport          0          0          0          0          0 pfRecoTauTagInfoProducerBoosted
+TrigReport          0          0          0          0          0 pfSecondaryVertexTagInfosAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 pfSecondaryVertexTagInfosAK8Puppi
+TrigReport          0          0          0          0          0 pfSecondaryVertexTagInfosPuppi
+TrigReport          0          0          0          0          0 pfSimpleInclusiveSecondaryVertexHighEffBJetTagsPuppi
+TrigReport          0          0          0          0          0 pfSimpleSecondaryVertexHighEffBJetTagsPuppi
+TrigReport          0          0          0          0          0 pfTaus
+TrigReport          0          0          0          0          0 pfTausNoHF
+TrigReport          0          0          0          0          0 pfTausPuppi
+TrigReport          0          0          0          0          0 pfTrackCountingHighEffBJetTagsPuppi
+TrigReport          0          0          0          0          0 pfeGammaToCandidate
+TrigReport          0          0          0          0          0 phPFIsoDepositChargedAllPAT
+TrigReport          0          0          0          0          0 phPFIsoDepositChargedPAT
+TrigReport          0          0          0          0          0 phPFIsoDepositGammaPAT
+TrigReport          0          0          0          0          0 phPFIsoDepositNeutralPAT
+TrigReport          0          0          0          0          0 phPFIsoDepositPUPAT
+TrigReport          0          0          0          0          0 phPFIsoValueCharged04PFIdPAT
+TrigReport          0          0          0          0          0 phPFIsoValueChargedAll04PFIdPAT
+TrigReport          0          0          0          0          0 phPFIsoValueGamma04PFIdPAT
+TrigReport          0          0          0          0          0 phPFIsoValueNeutral04PFIdPAT
+TrigReport          0          0          0          0          0 phPFIsoValuePU04PFIdPAT
+TrigReport          0          0          0          0          0 photonMVAValueMapProducer
+TrigReport          0          0          0          0          0 photonMatch
+TrigReport          0          0          0          0          0 pileupJetId
+TrigReport          0          0          0          0          0 prefiringweight
+TrigReport          0          0          0          0          0 primaryVertexAssociation
+TrigReport          0          0          0          0          0 primaryVertexFilter
+TrigReport          0          0          0          0          0 primaryVertexWithBSAssociation
+TrigReport          0          0          0          0          0 prunedGenParticles
+TrigReport          0          0          0          0          0 prunedGenParticlesWithStatusOne
+TrigReport          0          0          0          0          0 puppi
+TrigReport          0          0          0          0          0 puppiNoLep
+TrigReport          0          0          0          0          0 recoTauAK4PFJets08RegionBoosted
+TrigReport          0          0          0          0          0 reducedEgamma
+TrigReport          0          0          0          0          0 rekeyLowPtGsfElectronSeedValueMaps
+TrigReport          0          0          0          0          0 selectedHadronsAndPartonsForGenJetsFlavourInfos
+TrigReport          0          0          0          0          0 selectedPatElectrons
+TrigReport          0          0          0          0          0 selectedPatJets
+TrigReport          0          0          0          0          0 selectedPatJetsAK8PFPuppiSoftDrop
+TrigReport          0          0          0          0          0 selectedPatJetsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 selectedPatJetsAK8Puppi
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT1T2SmearCorr
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT1T2SmearCorrNoHF
+TrigReport          0          0          0          0          0 selectedPatJetsForMetT1T2SmearCorrPuppi
+TrigReport          0          0          0          0          0 selectedPatJetsPuppi
+TrigReport          0          0          0          0          0 selectedPatLowPtElectrons
+TrigReport          0          0          0          0          0 selectedPatMuons
+TrigReport          0          0          0          0          0 selectedPatOOTPhotons
+TrigReport          0          0          0          0          0 selectedPatPhotons
+TrigReport          0          0          0          0          0 selectedPatTaus
+TrigReport          0          0          0          0          0 selectedPatTausBoosted
+TrigReport          0          0          0          0          0 selectedPatTrigger
+TrigReport          0          0          0          0          0 selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0
+TrigReport          0          0          0          0          0 selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0NoHF
+TrigReport          0          0          0          0          0 selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0Puppi
+TrigReport          0          0          0          0          0 selectedVerticesForPFMEtCorrType0
+TrigReport          0          0          0          0          0 selectedVerticesForPFMEtCorrType0NoHF
+TrigReport          0          0          0          0          0 selectedVerticesForPFMEtCorrType0Puppi
+TrigReport          0          0          0          0          0 shiftedPatElectronEnDown
+TrigReport          0          0          0          0          0 shiftedPatElectronEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatElectronEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatElectronEnUp
+TrigReport          0          0          0          0          0 shiftedPatElectronEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatElectronEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatJetEnDown
+TrigReport          0          0          0          0          0 shiftedPatJetEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatJetEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatJetEnUp
+TrigReport          0          0          0          0          0 shiftedPatJetEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatJetEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatJetResDown
+TrigReport          0          0          0          0          0 shiftedPatJetResDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatJetResDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatJetResUp
+TrigReport          0          0          0          0          0 shiftedPatJetResUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatJetResUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrElectronEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrElectronEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrElectronEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrElectronEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrElectronEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrElectronEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrJetResUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrMuonEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrMuonEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrMuonEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrMuonEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrMuonEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrMuonEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrPhotonEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrSmearedJetResDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrSmearedJetResDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrSmearedJetResDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrSmearedJetResUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrSmearedJetResUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrSmearedJetResUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrTauEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrTauEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrTauEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrTauEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrTauEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrTauEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrUnclusteredEnDown
+TrigReport          0          0          0          0          0 shiftedPatMETCorrUnclusteredEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrUnclusteredEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMETCorrUnclusteredEnUp
+TrigReport          0          0          0          0          0 shiftedPatMETCorrUnclusteredEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMETCorrUnclusteredEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatMuonEnDown
+TrigReport          0          0          0          0          0 shiftedPatMuonEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatMuonEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatMuonEnUp
+TrigReport          0          0          0          0          0 shiftedPatMuonEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatMuonEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnDown
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnUp
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatPhotonEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatSmearedJetResDown
+TrigReport          0          0          0          0          0 shiftedPatSmearedJetResDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatSmearedJetResDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatSmearedJetResUp
+TrigReport          0          0          0          0          0 shiftedPatSmearedJetResUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatSmearedJetResUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatTauEnDown
+TrigReport          0          0          0          0          0 shiftedPatTauEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatTauEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatTauEnUp
+TrigReport          0          0          0          0          0 shiftedPatTauEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatTauEnUpPuppi
+TrigReport          0          0          0          0          0 shiftedPatUnclusteredEnDown
+TrigReport          0          0          0          0          0 shiftedPatUnclusteredEnDownNoHF
+TrigReport          0          0          0          0          0 shiftedPatUnclusteredEnDownPuppi
+TrigReport          0          0          0          0          0 shiftedPatUnclusteredEnUp
+TrigReport          0          0          0          0          0 shiftedPatUnclusteredEnUpNoHF
+TrigReport          0          0          0          0          0 shiftedPatUnclusteredEnUpPuppi
+TrigReport          0          0          0          0          0 slimmedAddPileupInfo
+TrigReport          0          0          0          0          0 slimmedCaloJets
+TrigReport          0          0          0          0          0 slimmedElectrons
+TrigReport          0          0          0          0          0 slimmedGenJets
+TrigReport          0          0          0          0          0 slimmedGenJetsAK8
+TrigReport          0          0          0          0          0 slimmedGenJetsAK8SoftDropSubJets
+TrigReport          0          0          0          0          0 slimmedGenJetsFlavourInfos
+TrigReport          0          0          0          0          0 slimmedHcalRecHits
+TrigReport          0          0          0          0          0 slimmedJets
+TrigReport          0          0          0          0          0 slimmedJetsAK8
+TrigReport          0          0          0          0          0 slimmedJetsAK8NoDeepTags
+TrigReport          0          0          0          0          0 slimmedJetsAK8PFPuppiSoftDropPacked
+TrigReport          0          0          0          0          0 slimmedJetsAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 slimmedJetsNoDeepFlavour
+TrigReport          0          0          0          0          0 slimmedJetsPuppi
+TrigReport          0          0          0          0          0 slimmedKshortVertices
+TrigReport          0          0          0          0          0 slimmedLambdaVertices
+TrigReport          0          0          0          0          0 slimmedLowPtElectrons
+TrigReport          0          0          0          0          0 slimmedMETs
+TrigReport          0          0          0          0          0 slimmedMETsNoHF
+TrigReport          0          0          0          0          0 slimmedMETsPuppi
+TrigReport          0          0          0          0          0 slimmedMuonTrackExtras
+TrigReport          0          0          0          0          0 slimmedMuons
+TrigReport          0          0          0          0          0 slimmedOOTPhotons
+TrigReport          0          0          0          0          0 slimmedPatTrigger
+TrigReport          0          0          0          0          0 slimmedPhotons
+TrigReport          0          0          0          0          0 slimmedSecondaryVertices
+TrigReport          0          0          0          0          0 slimmedTaus
+TrigReport          0          0          0          0          0 slimmedTausBoosted
+TrigReport          0          0          0          0          0 slimmedTausNoDeepIDs
+TrigReport          0          0          0          0          0 softPFElectronBJetTagsPuppi
+TrigReport          0          0          0          0          0 softPFElectronsTagInfosAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 softPFElectronsTagInfosAK8Puppi
+TrigReport          0          0          0          0          0 softPFElectronsTagInfosPuppi
+TrigReport          0          0          0          0          0 softPFMuonBJetTagsPuppi
+TrigReport          0          0          0          0          0 softPFMuonsTagInfosAK8PFPuppiSoftDropSubjets
+TrigReport          0          0          0          0          0 softPFMuonsTagInfosAK8Puppi
+TrigReport          0          0          0          0          0 softPFMuonsTagInfosPuppi
+TrigReport          0          0          0          0          0 tauGenJetMatch
+TrigReport          0          0          0          0          0 tauGenJetMatchBoosted
+TrigReport          0          0          0          0          0 tauGenJets
+TrigReport          0          0          0          0          0 tauGenJetsBoosted
+TrigReport          0          0          0          0          0 tauGenJetsSelectorAllHadrons
+TrigReport          0          0          0          0          0 tauGenJetsSelectorAllHadronsBoosted
+TrigReport          0          0          0          0          0 tauMatch
+TrigReport          0          0          0          0          0 tauMatchBoosted
+TrigReport          0          0          0          0          0 tmpPFCandCollPtrNoHF
+TrigReport          0          0          0          0          0 toomanystripclus53X
+TrigReport          0          0          0          0          0 updatedPatJetsSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 updatedPatJetsSlimmedDeepFlavour
+TrigReport          0          0          0          0          0 updatedPatJetsTransientCorrectedSlimmedAK8DeepTags
+TrigReport          0          0          0          0          0 updatedPatJetsTransientCorrectedSlimmedDeepFlavour
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport       event loop CPU/event = 0.000431
+TimeReport      event loop Real/event = 0.000585
+TimeReport     sum Streams Real/event = 0.000000
+TimeReport efficiency CPU/Real/thread = 0.736475
+
+TimeReport ---------- Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport   0.000000     0.000000  Flag_HBHENoiseFilter
+TimeReport   0.000000     0.000000  Flag_HBHENoiseIsoFilter
+TimeReport   0.000000     0.000000  Flag_CSCTightHaloFilter
+TimeReport   0.000000     0.000000  Flag_CSCTightHaloTrkMuUnvetoFilter
+TimeReport   0.000000     0.000000  Flag_CSCTightHalo2015Filter
+TimeReport   0.000000     0.000000  Flag_globalTightHalo2016Filter
+TimeReport   0.000000     0.000000  Flag_globalSuperTightHalo2016Filter
+TimeReport   0.000000     0.000000  Flag_HcalStripHaloFilter
+TimeReport   0.000000     0.000000  Flag_hcalLaserEventFilter
+TimeReport   0.000000     0.000000  Flag_EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000000     0.000000  Flag_EcalDeadCellBoundaryEnergyFilter
+TimeReport   0.000000     0.000000  Flag_ecalBadCalibFilter
+TimeReport   0.000000     0.000000  Flag_goodVertices
+TimeReport   0.000000     0.000000  Flag_eeBadScFilter
+TimeReport   0.000000     0.000000  Flag_ecalLaserCorrFilter
+TimeReport   0.000000     0.000000  Flag_trkPOGFilters
+TimeReport   0.000000     0.000000  Flag_chargedHadronTrackResolutionFilter
+TimeReport   0.000000     0.000000  Flag_muonBadTrackFilter
+TimeReport   0.000000     0.000000  Flag_BadChargedCandidateFilter
+TimeReport   0.000000     0.000000  Flag_BadPFMuonFilter
+TimeReport   0.000000     0.000000  Flag_BadPFMuonDzFilter
+TimeReport   0.000000     0.000000  Flag_hfNoisyHitsFilter
+TimeReport   0.000000     0.000000  Flag_BadChargedCandidateSummer16Filter
+TimeReport   0.000000     0.000000  Flag_BadPFMuonSummer16Filter
+TimeReport   0.000000     0.000000  Flag_trkPOG_manystripclus53X
+TimeReport   0.000000     0.000000  Flag_trkPOG_toomanystripclus53X
+TimeReport   0.000000     0.000000  Flag_trkPOG_logErrorTooManyClusters
+TimeReport   0.000000     0.000000  Flag_METFilters
+TimeReport  per event     per exec  Name
+
+TimeReport -------End-Path   Summary ---[Real sec]----
+TimeReport  per event     per exec  Name
+TimeReport   0.000000     0.000000  endjob_step
+TimeReport   0.000000     0.000000  MINIAODSIMoutput_step
+TimeReport  per event     per exec  Name
+
+TimeReport ---------- Modules in Path: Flag_HBHENoiseFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  HBHENoiseFilterResultProducer
+TimeReport   0.000000     0.000000  HBHENoiseFilter
+
+TimeReport ---------- Modules in Path: Flag_HBHENoiseIsoFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  HBHENoiseFilterResultProducer
+TimeReport   0.000000     0.000000  HBHENoiseIsoFilter
+
+TimeReport ---------- Modules in Path: Flag_CSCTightHaloFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  CSCTightHaloFilter
+
+TimeReport ---------- Modules in Path: Flag_CSCTightHaloTrkMuUnvetoFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  CSCTightHaloTrkMuUnvetoFilter
+
+TimeReport ---------- Modules in Path: Flag_CSCTightHalo2015Filter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  CSCTightHalo2015Filter
+
+TimeReport ---------- Modules in Path: Flag_globalTightHalo2016Filter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  globalTightHalo2016Filter
+
+TimeReport ---------- Modules in Path: Flag_globalSuperTightHalo2016Filter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  globalSuperTightHalo2016Filter
+
+TimeReport ---------- Modules in Path: Flag_HcalStripHaloFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  HcalStripHaloFilter
+
+TimeReport ---------- Modules in Path: Flag_hcalLaserEventFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  hcalLaserEventFilter
+
+TimeReport ---------- Modules in Path: Flag_EcalDeadCellTriggerPrimitiveFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  EcalDeadCellTriggerPrimitiveFilter
+
+TimeReport ---------- Modules in Path: Flag_EcalDeadCellBoundaryEnergyFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  EcalDeadCellBoundaryEnergyFilter
+
+TimeReport ---------- Modules in Path: Flag_ecalBadCalibFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  ecalBadCalibFilter
+
+TimeReport ---------- Modules in Path: Flag_goodVertices ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  primaryVertexFilter
+
+TimeReport ---------- Modules in Path: Flag_eeBadScFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  eeBadScFilter
+
+TimeReport ---------- Modules in Path: Flag_ecalLaserCorrFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  ecalLaserCorrFilter
+
+TimeReport ---------- Modules in Path: Flag_trkPOGFilters ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  !manystripclus53X
+TimeReport   0.000000     0.000000  !toomanystripclus53X
+TimeReport   0.000000     0.000000  !logErrorTooManyClusters
+
+TimeReport ---------- Modules in Path: Flag_chargedHadronTrackResolutionFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  chargedHadronTrackResolutionFilter
+
+TimeReport ---------- Modules in Path: Flag_muonBadTrackFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  muonBadTrackFilter
+
+TimeReport ---------- Modules in Path: Flag_BadChargedCandidateFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  BadChargedCandidateFilter
+
+TimeReport ---------- Modules in Path: Flag_BadPFMuonFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  BadPFMuonFilter
+
+TimeReport ---------- Modules in Path: Flag_BadPFMuonDzFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  BadPFMuonDzFilter
+
+TimeReport ---------- Modules in Path: Flag_hfNoisyHitsFilter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  hfNoisyHitsFilter
+
+TimeReport ---------- Modules in Path: Flag_BadChargedCandidateSummer16Filter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  BadChargedCandidateSummer16Filter
+
+TimeReport ---------- Modules in Path: Flag_BadPFMuonSummer16Filter ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  BadPFMuonSummer16Filter
+
+TimeReport ---------- Modules in Path: Flag_trkPOG_manystripclus53X ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  !manystripclus53X
+
+TimeReport ---------- Modules in Path: Flag_trkPOG_toomanystripclus53X ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  !toomanystripclus53X
+
+TimeReport ---------- Modules in Path: Flag_trkPOG_logErrorTooManyClusters ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  !logErrorTooManyClusters
+
+TimeReport ---------- Modules in Path: Flag_METFilters ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  goodVertices
+TimeReport   0.000000     0.000000  globalSuperTightHalo2016Filter
+TimeReport   0.000000     0.000000  HBHENoiseFilterResultProducer
+TimeReport   0.000000     0.000000  HBHENoiseFilter
+TimeReport   0.000000     0.000000  HBHENoiseIsoFilter
+TimeReport   0.000000     0.000000  EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000000     0.000000  BadPFMuonFilter
+TimeReport   0.000000     0.000000  BadPFMuonDzFilter
+TimeReport   0.000000     0.000000  hfNoisyHitsFilter
+TimeReport   0.000000     0.000000  eeBadScFilter
+TimeReport   0.000000     0.000000  ecalBadCalibFilter
+TimeReport  per event    per visit  Name
+
+TimeReport ------ Modules in End-Path: endjob_step ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  MEtoEDMConverter
+
+TimeReport ------ Modules in End-Path: MINIAODSIMoutput_step ---[Real sec]----
+TimeReport  per event    per visit  Name
+TimeReport   0.000000     0.000000  MINIAODSIMoutput
+TimeReport  per event    per visit  Name
+
+TimeReport ---------- Module Summary ---[Real sec]----
+TimeReport  per event     per exec    per visit  Name
+TimeReport   0.000000     0.000000     0.000000  BadChargedCandidateFilter
+TimeReport   0.000000     0.000000     0.000000  BadChargedCandidateSummer16Filter
+TimeReport   0.000000     0.000000     0.000000  BadPFMuonDzFilter
+TimeReport   0.000000     0.000000     0.000000  BadPFMuonFilter
+TimeReport   0.000000     0.000000     0.000000  BadPFMuonSummer16Filter
+TimeReport   0.000000     0.000000     0.000000  CHSCands
+TimeReport   0.000000     0.000000     0.000000  CSCTightHalo2015Filter
+TimeReport   0.000000     0.000000     0.000000  CSCTightHaloFilter
+TimeReport   0.000000     0.000000     0.000000  CSCTightHaloTrkMuUnvetoFilter
+TimeReport   0.000000     0.000000     0.000000  EcalDeadCellBoundaryEnergyFilter
+TimeReport   0.000000     0.000000     0.000000  EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_BadChargedCandidateFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_BadChargedCandidateSummer16Filter
+TimeReport   0.000000     0.000000     0.000000  Flag_BadPFMuonDzFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_BadPFMuonFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_BadPFMuonSummer16Filter
+TimeReport   0.000000     0.000000     0.000000  Flag_CSCTightHalo2015Filter
+TimeReport   0.000000     0.000000     0.000000  Flag_CSCTightHaloFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_CSCTightHaloTrkMuUnvetoFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_EcalDeadCellBoundaryEnergyFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_EcalDeadCellTriggerPrimitiveFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_HBHENoiseFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_HBHENoiseIsoFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_HcalStripHaloFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_METFilters
+TimeReport   0.000000     0.000000     0.000000  Flag_chargedHadronTrackResolutionFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_ecalBadCalibFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_ecalLaserCorrFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_eeBadScFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_globalSuperTightHalo2016Filter
+TimeReport   0.000000     0.000000     0.000000  Flag_globalTightHalo2016Filter
+TimeReport   0.000000     0.000000     0.000000  Flag_goodVertices
+TimeReport   0.000000     0.000000     0.000000  Flag_hcalLaserEventFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_hfNoisyHitsFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_muonBadTrackFilter
+TimeReport   0.000000     0.000000     0.000000  Flag_trkPOGFilters
+TimeReport   0.000000     0.000000     0.000000  Flag_trkPOG_logErrorTooManyClusters
+TimeReport   0.000000     0.000000     0.000000  Flag_trkPOG_manystripclus53X
+TimeReport   0.000000     0.000000     0.000000  Flag_trkPOG_toomanystripclus53X
+TimeReport   0.000000     0.000000     0.000000  HBHENoiseFilter
+TimeReport   0.000000     0.000000     0.000000  HBHENoiseFilterResultProducer
+TimeReport   0.000000     0.000000     0.000000  HBHENoiseIsoFilter
+TimeReport   0.000000     0.000000     0.000000  HcalStripHaloFilter
+TimeReport   0.000000     0.000000     0.000000  MEtoEDMConverter
+TimeReport   0.000000     0.000000     0.000000  MINIAODSIMoutput
+TimeReport   0.000000     0.000000     0.000000  MINIAODSIMoutput_step
+TimeReport   0.000000     0.000000     0.000000  NjettinessAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  NjettinessAK8Subjets
+TimeReport   0.000000     0.000000     0.000000  QGTagger
+TimeReport   0.000000     0.000000     0.000000  TriggerResults
+TimeReport   0.000000     0.000000     0.000000  TrkCands
+TimeReport   0.000000     0.000000     0.000000  ak4GenJetFlavourInfos
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastL2L3CorrectorNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastL2L3ResidualCorrectorNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastjetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL1FastjetCorrectorNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL2RelativeCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL2RelativeCorrectorNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSL3AbsoluteCorrectorNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFCHSResidualCorrectorNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFJetTracksAssociatorAtVertexBoosted
+TimeReport   0.000000     0.000000     0.000000  ak4PFJetsCHSNoHF
+TimeReport   0.000000     0.000000     0.000000  ak4PFJetsLegacyHPSPiZerosBoosted
+TimeReport   0.000000     0.000000     0.000000  ak4PFJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  ak4PFJetsRecoTauChargedHadronsBoosted
+TimeReport   0.000000     0.000000     0.000000  ak4PFPuppiL1FastL2L3Corrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFPuppiL1FastL2L3ResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFPuppiL1FastjetCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFPuppiL2RelativeCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFPuppiL3AbsoluteCorrector
+TimeReport   0.000000     0.000000     0.000000  ak4PFPuppiResidualCorrector
+TimeReport   0.000000     0.000000     0.000000  ak8GenJetsNoNuConstituents
+TimeReport   0.000000     0.000000     0.000000  ak8GenJetsNoNuSoftDrop
+TimeReport   0.000000     0.000000     0.000000  ak8PFJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  ak8PFJetsPuppiConstituents
+TimeReport   0.000000     0.000000     0.000000  ak8PFJetsPuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  ak8PFJetsPuppiSoftDropMass
+TimeReport   0.000000     0.000000     0.000000  basicJetsForMet
+TimeReport   0.000000     0.000000     0.000000  basicJetsForMetNoHF
+TimeReport   0.000000     0.000000     0.000000  basicJetsForMetPuppi
+TimeReport   0.000000     0.000000     0.000000  boostedTauSeeds
+TimeReport   0.000000     0.000000     0.000000  bunchSpacingProducer
+TimeReport   0.000000     0.000000     0.000000  ca8PFJetsCHSprunedForBoostedTaus
+TimeReport   0.000000     0.000000     0.000000  calibratedElectrons
+TimeReport   0.000000     0.000000     0.000000  calibratedPhotons
+TimeReport   0.000000     0.000000     0.000000  caloJetMap
+TimeReport   0.000000     0.000000     0.000000  chargedHadronTrackResolutionFilter
+TimeReport   0.000000     0.000000     0.000000  cleanedPatJets
+TimeReport   0.000000     0.000000     0.000000  cleanedPatJetsNoHF
+TimeReport   0.000000     0.000000     0.000000  cleanedPatJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  combinatoricRecoTausBoosted
+TimeReport   0.000000     0.000000     0.000000  corrPfMetType1
+TimeReport   0.000000     0.000000     0.000000  corrPfMetType1NoHF
+TimeReport   0.000000     0.000000     0.000000  corrPfMetType1Puppi
+TimeReport   0.000000     0.000000     0.000000  deepMETsResolutionTune
+TimeReport   0.000000     0.000000     0.000000  deepMETsResponseTune
+TimeReport   0.000000     0.000000     0.000000  deepTau2017v2p1
+TimeReport   0.000000     0.000000     0.000000  ecalBadCalibFilter
+TimeReport   0.000000     0.000000     0.000000  ecalLaserCorrFilter
+TimeReport   0.000000     0.000000     0.000000  eeBadScFilter
+TimeReport   0.000000     0.000000     0.000000  egmElectronPUPPIIsolation
+TimeReport   0.000000     0.000000     0.000000  egmElectronPUPPINoLeptonsIsolation
+TimeReport   0.000000     0.000000     0.000000  egmGsfElectronIDs
+TimeReport   0.000000     0.000000     0.000000  egmPhotonIDs
+TimeReport   0.000000     0.000000     0.000000  egmPhotonPUPPIIsolation
+TimeReport   0.000000     0.000000     0.000000  elPFIsoDepositChargedAllPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoDepositChargedPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoDepositGammaPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoDepositNeutralPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoDepositPUPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueCharged04NoPFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueCharged04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueChargedAll04NoPFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueChargedAll04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueGamma04NoPFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueGamma04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueNeutral04NoPFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValueNeutral04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValuePU04NoPFIdPAT
+TimeReport   0.000000     0.000000     0.000000  elPFIsoValuePU04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  electronMVAValueMapProducer
+TimeReport   0.000000     0.000000     0.000000  electronMatch
+TimeReport   0.000000     0.000000     0.000000  endjob_step
+TimeReport   0.000000     0.000000     0.000000  globalSuperTightHalo2016Filter
+TimeReport   0.000000     0.000000     0.000000  globalTightHalo2016Filter
+TimeReport   0.000000     0.000000     0.000000  goodOfflinePrimaryVerticesNoHF
+TimeReport   0.000000     0.000000     0.000000  goodVertices
+TimeReport   0.000000     0.000000     0.000000  hcalLaserEventFilter
+TimeReport   0.000000     0.000000     0.000000  hfJetShowerShape
+TimeReport   0.000000     0.000000     0.000000  hfNoisyHitsFilter
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauBasicDiscriminators
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauBasicDiscriminatorsBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauBasicDiscriminatorsdR03
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauBasicDiscriminatorsdR03Boosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByDeadECALElectronRejection
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByDeadECALElectronRejectionBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByDecayModeFindingBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByDecayModeFindingNewDMsBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLT
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTraw
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBdR03oldDMwLTrawBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLT
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTraw
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBnewDMwLTrawBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLT
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTraw
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByIsolationMVArun2v1DBoldDMwLTrawBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByMVA6ElectronRejection
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByMVA6ElectronRejectionBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByMVA6rawElectronRejection
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByMVA6rawElectronRejectionBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByMuonRejection3
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauDiscriminationByMuonRejection3Boosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauPrimaryVertexProducerBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauProducerBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauProducerSansRefsBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauSecondaryVertexProducerBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsPFTauTransverseImpactParametersBoosted
+TimeReport   0.000000     0.000000     0.000000  hpsSelectionDiscriminatorBoosted
+TimeReport   0.000000     0.000000     0.000000  isolatedTracks
+TimeReport   0.000000     0.000000     0.000000  jetSelectorForMet
+TimeReport   0.000000     0.000000     0.000000  jetSelectorForMetNoHF
+TimeReport   0.000000     0.000000     0.000000  jetSelectorForMetPuppi
+TimeReport   0.000000     0.000000     0.000000  logErrorTooManyClusters
+TimeReport   0.000000     0.000000     0.000000  lostTracks
+TimeReport   0.000000     0.000000     0.000000  lostTracksToGenAssociation
+TimeReport   0.000000     0.000000     0.000000  lowPtElectronMatch
+TimeReport   0.000000     0.000000     0.000000  lowPtGsfElectronID
+TimeReport   0.000000     0.000000     0.000000  lowPtGsfElectrons
+TimeReport   0.000000     0.000000     0.000000  lowPtGsfLinks
+TimeReport   0.000000     0.000000     0.000000  manystripclus53X
+TimeReport   0.000000     0.000000     0.000000  muPFIsoDepositChargedAllPAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoDepositChargedPAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoDepositGammaPAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoDepositNeutralPAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoDepositPUPAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoValueCharged04PAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoValueChargedAll04PAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoValueGamma04PAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoValueNeutral04PAT
+TimeReport   0.000000     0.000000     0.000000  muPFIsoValuePU04PAT
+TimeReport   0.000000     0.000000     0.000000  muonBadTrackFilter
+TimeReport   0.000000     0.000000     0.000000  muonMatch
+TimeReport   0.000000     0.000000     0.000000  muonPUPPIIsolation
+TimeReport   0.000000     0.000000     0.000000  muonPUPPINoLeptonsIsolation
+TimeReport   0.000000     0.000000     0.000000  nb1AK8PuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  nb1AK8PuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  nb2AK8PuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  nb2AK8PuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  noHFCands
+TimeReport   0.000000     0.000000     0.000000  offlineSlimmedPrimaryVertices
+TimeReport   0.000000     0.000000     0.000000  offlineSlimmedPrimaryVerticesWithBS
+TimeReport   0.000000     0.000000     0.000000  oniaPhotonCandidates
+TimeReport   0.000000     0.000000     0.000000  ootPhotonMatch
+TimeReport   0.000000     0.000000     0.000000  packedGenParticles
+TimeReport   0.000000     0.000000     0.000000  packedPFCandidateToGenAssociation
+TimeReport   0.000000     0.000000     0.000000  packedPFCandidates
+TimeReport   0.000000     0.000000     0.000000  packedPatJetsAK8
+TimeReport   0.000000     0.000000     0.000000  packedpuppi
+TimeReport   0.000000     0.000000     0.000000  particleFlowDisplacedVertex
+TimeReport   0.000000     0.000000     0.000000  particleFlowPtrs
+TimeReport   0.000000     0.000000     0.000000  patCHSMet
+TimeReport   0.000000     0.000000     0.000000  patCaloMet
+TimeReport   0.000000     0.000000     0.000000  patElectrons
+TimeReport   0.000000     0.000000     0.000000  patJetCharge
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactors
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsAK8PFPuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsNoHF
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsPuppi
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsTransientCorrectedSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  patJetCorrFactorsTransientCorrectedSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  patJetFlavourAssociation
+TimeReport   0.000000     0.000000     0.000000  patJetFlavourAssociationAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  patJetFlavourAssociationAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  patJetFlavourAssociationPuppi
+TimeReport   0.000000     0.000000     0.000000  patJetGenJetMatch
+TimeReport   0.000000     0.000000     0.000000  patJetGenJetMatchAK8PFPuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  patJetGenJetMatchAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  patJetGenJetMatchAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  patJetGenJetMatchPuppi
+TimeReport   0.000000     0.000000     0.000000  patJetPartonMatch
+TimeReport   0.000000     0.000000     0.000000  patJetPartonMatchAK8PFPuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  patJetPartonMatchAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  patJetPartonMatchAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  patJetPartonMatchPuppi
+TimeReport   0.000000     0.000000     0.000000  patJetPartons
+TimeReport   0.000000     0.000000     0.000000  patJets
+TimeReport   0.000000     0.000000     0.000000  patJetsAK8PFPuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  patJetsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  patJetsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  patJetsNoHF
+TimeReport   0.000000     0.000000     0.000000  patJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  patLowPtElectrons
+TimeReport   0.000000     0.000000     0.000000  patMETs
+TimeReport   0.000000     0.000000     0.000000  patMETsNoHF
+TimeReport   0.000000     0.000000     0.000000  patMETsPuppi
+TimeReport   0.000000     0.000000     0.000000  patMuons
+TimeReport   0.000000     0.000000     0.000000  patOOTPhotons
+TimeReport   0.000000     0.000000     0.000000  patPFMet
+TimeReport   0.000000     0.000000     0.000000  patPFMetNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0Corr
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0CorrNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0CorrPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1NoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1Puppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1SmearTxy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1SmearTxyNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1SmearTxyPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1Txy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1TxyNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT0pcT1TxyPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1ElectronEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1ElectronEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1ElectronEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1ElectronEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1ElectronEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1ElectronEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1JetResUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1MuonEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1MuonEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1MuonEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1MuonEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1MuonEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1MuonEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1NoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1PhotonEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1Puppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1Smear
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearJetResDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearJetResDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearJetResDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearJetResUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearJetResUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearJetResUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearTxy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearTxyNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1SmearTxyPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2Corr
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2CorrNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2CorrPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2SmearCorr
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2SmearCorrNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1T2SmearCorrPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TauEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TauEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TauEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TauEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TauEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TauEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1Txy
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TxyNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1TxyPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1UnclusteredEnDown
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1UnclusteredEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1UnclusteredEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1UnclusteredEnUp
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1UnclusteredEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetT1UnclusteredEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxy
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxyCorr
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxyCorrNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxyCorrPuppi
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxyNoHF
+TimeReport   0.000000     0.000000     0.000000  patPFMetTxyPuppi
+TimeReport   0.000000     0.000000     0.000000  patPhotons
+TimeReport   0.000000     0.000000     0.000000  patSmearedJets
+TimeReport   0.000000     0.000000     0.000000  patSmearedJetsNoHF
+TimeReport   0.000000     0.000000     0.000000  patSmearedJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  patTaus
+TimeReport   0.000000     0.000000     0.000000  patTausBoosted
+TimeReport   0.000000     0.000000     0.000000  patTrigger
+TimeReport   0.000000     0.000000     0.000000  patTrkMet
+TimeReport   0.000000     0.000000     0.000000  pfAllChargedHadronsPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfAllChargedParticlesPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfAllNeutralHadronsPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfAllPhotonsPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfBoostedDoubleSVAK8TagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfBoostedDoubleSVAK8TagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfBoostedDoubleSecondaryVertexAK8BJetTagsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfCandidateToVertexAssociation
+TimeReport   0.000000     0.000000     0.000000  pfCandsForUnclusteredUnc
+TimeReport   0.000000     0.000000     0.000000  pfCandsForUnclusteredUncNoHF
+TimeReport   0.000000     0.000000     0.000000  pfCandsForUnclusteredUncPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJets
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEle
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoHF
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoMu
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoMuNoHF
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoMuNoTau
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoMuNoTauNoHF
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoMuNoTauPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoEleNoMuPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoElePuppi
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsNoHF
+TimeReport   0.000000     0.000000     0.000000  pfCandsNoJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedCvsBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedCvsLJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedInclusiveSecondaryVertexV2BJetTagsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfCombinedInclusiveSecondaryVertexV2BJetTagsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedInclusiveSecondaryVertexV2BJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedMVAV2BJetTagsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfCombinedMVAV2BJetTagsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedMVAV2BJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedSecondaryVertexV2BJetTagsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfCombinedSecondaryVertexV2BJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfDeepBoostedDiscriminatorsJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfDeepBoostedJetTagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfDeepBoostedJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVDiscriminatorsJetTags
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVDiscriminatorsJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVJetTagsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVJetTagsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVTagInfosAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVTagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  pfDeepCSVTagInfosSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfDeepDoubleXTagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfDeepFlavourJetTagsSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfDeepFlavourTagInfosSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfElectrons
+TimeReport   0.000000     0.000000     0.000000  pfElectronsNoHF
+TimeReport   0.000000     0.000000     0.000000  pfElectronsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfHiggsInteractionNetTagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfHiggsInteractionNetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfImpactParameterAK8TagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfImpactParameterAK8TagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfImpactParameterTagInfosAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfImpactParameterTagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfImpactParameterTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  pfImpactParameterTagInfosSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderAK8TagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderAK8TagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderCvsLTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderTagInfosAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderTagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  pfInclusiveSecondaryVertexFinderTagInfosSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfJetBProbabilityBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfJetProbabilityBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfMassDecorrelatedDeepBoostedDiscriminatorsJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMassDecorrelatedDeepBoostedJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMassDecorrelatedParticleNetDiscriminatorsJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMassDecorrelatedParticleNetJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMassIndependentDeepDoubleBvLV2JetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMassIndependentDeepDoubleCvBV2JetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMassIndependentDeepDoubleCvLV2JetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfMetCHS
+TimeReport   0.000000     0.000000     0.000000  pfMetNoHF
+TimeReport   0.000000     0.000000     0.000000  pfMetPuppi
+TimeReport   0.000000     0.000000     0.000000  pfMetT1
+TimeReport   0.000000     0.000000     0.000000  pfMetT1NoHF
+TimeReport   0.000000     0.000000     0.000000  pfMetT1Puppi
+TimeReport   0.000000     0.000000     0.000000  pfMetTrk
+TimeReport   0.000000     0.000000     0.000000  pfMuons
+TimeReport   0.000000     0.000000     0.000000  pfMuonsNoHF
+TimeReport   0.000000     0.000000     0.000000  pfMuonsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfNoPileUp
+TimeReport   0.000000     0.000000     0.000000  pfNoPileUpIsoPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfNoPileUpJMENoHF
+TimeReport   0.000000     0.000000     0.000000  pfNoPileUpNoHF
+TimeReport   0.000000     0.000000     0.000000  pfNoPileUpPuppi
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetAK4DiscriminatorsJetTagsSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetAK4JetTagsSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetAK4TagInfosSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetDiscriminatorsJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetMassRegressionJetTagsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfParticleNetTagInfosSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  pfPhotons
+TimeReport   0.000000     0.000000     0.000000  pfPhotonsNoHF
+TimeReport   0.000000     0.000000     0.000000  pfPhotonsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfPileUpAllChargedParticlesPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfPileUpIsoPFBRECO
+TimeReport   0.000000     0.000000     0.000000  pfPileUpJMENoHF
+TimeReport   0.000000     0.000000     0.000000  pfRecoTauTagInfoProducerBoosted
+TimeReport   0.000000     0.000000     0.000000  pfSecondaryVertexTagInfosAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  pfSecondaryVertexTagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  pfSecondaryVertexTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  pfSimpleInclusiveSecondaryVertexHighEffBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfSimpleSecondaryVertexHighEffBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfTaus
+TimeReport   0.000000     0.000000     0.000000  pfTausNoHF
+TimeReport   0.000000     0.000000     0.000000  pfTausPuppi
+TimeReport   0.000000     0.000000     0.000000  pfTrackCountingHighEffBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  pfeGammaToCandidate
+TimeReport   0.000000     0.000000     0.000000  phPFIsoDepositChargedAllPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoDepositChargedPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoDepositGammaPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoDepositNeutralPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoDepositPUPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoValueCharged04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoValueChargedAll04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoValueGamma04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoValueNeutral04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  phPFIsoValuePU04PFIdPAT
+TimeReport   0.000000     0.000000     0.000000  photonMVAValueMapProducer
+TimeReport   0.000000     0.000000     0.000000  photonMatch
+TimeReport   0.000000     0.000000     0.000000  pileupJetId
+TimeReport   0.000000     0.000000     0.000000  prefiringweight
+TimeReport   0.000000     0.000000     0.000000  primaryVertexAssociation
+TimeReport   0.000000     0.000000     0.000000  primaryVertexFilter
+TimeReport   0.000000     0.000000     0.000000  primaryVertexWithBSAssociation
+TimeReport   0.000000     0.000000     0.000000  prunedGenParticles
+TimeReport   0.000000     0.000000     0.000000  prunedGenParticlesWithStatusOne
+TimeReport   0.000000     0.000000     0.000000  puppi
+TimeReport   0.000000     0.000000     0.000000  puppiNoLep
+TimeReport   0.000000     0.000000     0.000000  recoTauAK4PFJets08RegionBoosted
+TimeReport   0.000000     0.000000     0.000000  reducedEgamma
+TimeReport   0.000000     0.000000     0.000000  rekeyLowPtGsfElectronSeedValueMaps
+TimeReport   0.000000     0.000000     0.000000  selectedHadronsAndPartonsForGenJetsFlavourInfos
+TimeReport   0.000000     0.000000     0.000000  selectedPatElectrons
+TimeReport   0.000000     0.000000     0.000000  selectedPatJets
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsAK8PFPuppiSoftDrop
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT1T2SmearCorr
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT1T2SmearCorrNoHF
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsForMetT1T2SmearCorrPuppi
+TimeReport   0.000000     0.000000     0.000000  selectedPatJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  selectedPatLowPtElectrons
+TimeReport   0.000000     0.000000     0.000000  selectedPatMuons
+TimeReport   0.000000     0.000000     0.000000  selectedPatOOTPhotons
+TimeReport   0.000000     0.000000     0.000000  selectedPatPhotons
+TimeReport   0.000000     0.000000     0.000000  selectedPatTaus
+TimeReport   0.000000     0.000000     0.000000  selectedPatTausBoosted
+TimeReport   0.000000     0.000000     0.000000  selectedPatTrigger
+TimeReport   0.000000     0.000000     0.000000  selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0
+TimeReport   0.000000     0.000000     0.000000  selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0NoHF
+TimeReport   0.000000     0.000000     0.000000  selectedPrimaryVertexHighestPtTrackSumForPFMEtCorrType0Puppi
+TimeReport   0.000000     0.000000     0.000000  selectedVerticesForPFMEtCorrType0
+TimeReport   0.000000     0.000000     0.000000  selectedVerticesForPFMEtCorrType0NoHF
+TimeReport   0.000000     0.000000     0.000000  selectedVerticesForPFMEtCorrType0Puppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatElectronEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatElectronEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatElectronEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatElectronEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatElectronEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatElectronEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatJetResUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrElectronEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrElectronEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrElectronEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrElectronEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrElectronEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrElectronEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrJetResUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrMuonEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrMuonEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrMuonEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrMuonEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrMuonEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrMuonEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrPhotonEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrSmearedJetResDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrSmearedJetResDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrSmearedJetResDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrSmearedJetResUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrSmearedJetResUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrSmearedJetResUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrTauEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrTauEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrTauEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrTauEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrTauEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrTauEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrUnclusteredEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrUnclusteredEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrUnclusteredEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrUnclusteredEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrUnclusteredEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMETCorrUnclusteredEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMuonEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMuonEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMuonEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMuonEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMuonEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatMuonEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatPhotonEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatSmearedJetResDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatSmearedJetResDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatSmearedJetResDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatSmearedJetResUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatSmearedJetResUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatSmearedJetResUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatTauEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatTauEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatTauEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatTauEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatTauEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatTauEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatUnclusteredEnDown
+TimeReport   0.000000     0.000000     0.000000  shiftedPatUnclusteredEnDownNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatUnclusteredEnDownPuppi
+TimeReport   0.000000     0.000000     0.000000  shiftedPatUnclusteredEnUp
+TimeReport   0.000000     0.000000     0.000000  shiftedPatUnclusteredEnUpNoHF
+TimeReport   0.000000     0.000000     0.000000  shiftedPatUnclusteredEnUpPuppi
+TimeReport   0.000000     0.000000     0.000000  slimmedAddPileupInfo
+TimeReport   0.000000     0.000000     0.000000  slimmedCaloJets
+TimeReport   0.000000     0.000000     0.000000  slimmedElectrons
+TimeReport   0.000000     0.000000     0.000000  slimmedGenJets
+TimeReport   0.000000     0.000000     0.000000  slimmedGenJetsAK8
+TimeReport   0.000000     0.000000     0.000000  slimmedGenJetsAK8SoftDropSubJets
+TimeReport   0.000000     0.000000     0.000000  slimmedGenJetsFlavourInfos
+TimeReport   0.000000     0.000000     0.000000  slimmedHcalRecHits
+TimeReport   0.000000     0.000000     0.000000  slimmedJets
+TimeReport   0.000000     0.000000     0.000000  slimmedJetsAK8
+TimeReport   0.000000     0.000000     0.000000  slimmedJetsAK8NoDeepTags
+TimeReport   0.000000     0.000000     0.000000  slimmedJetsAK8PFPuppiSoftDropPacked
+TimeReport   0.000000     0.000000     0.000000  slimmedJetsAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  slimmedJetsNoDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  slimmedJetsPuppi
+TimeReport   0.000000     0.000000     0.000000  slimmedKshortVertices
+TimeReport   0.000000     0.000000     0.000000  slimmedLambdaVertices
+TimeReport   0.000000     0.000000     0.000000  slimmedLowPtElectrons
+TimeReport   0.000000     0.000000     0.000000  slimmedMETs
+TimeReport   0.000000     0.000000     0.000000  slimmedMETsNoHF
+TimeReport   0.000000     0.000000     0.000000  slimmedMETsPuppi
+TimeReport   0.000000     0.000000     0.000000  slimmedMuonTrackExtras
+TimeReport   0.000000     0.000000     0.000000  slimmedMuons
+TimeReport   0.000000     0.000000     0.000000  slimmedOOTPhotons
+TimeReport   0.000000     0.000000     0.000000  slimmedPatTrigger
+TimeReport   0.000000     0.000000     0.000000  slimmedPhotons
+TimeReport   0.000000     0.000000     0.000000  slimmedSecondaryVertices
+TimeReport   0.000000     0.000000     0.000000  slimmedTaus
+TimeReport   0.000000     0.000000     0.000000  slimmedTausBoosted
+TimeReport   0.000000     0.000000     0.000000  slimmedTausNoDeepIDs
+TimeReport   0.000000     0.000000     0.000000  softPFElectronBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  softPFElectronsTagInfosAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  softPFElectronsTagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  softPFElectronsTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  softPFMuonBJetTagsPuppi
+TimeReport   0.000000     0.000000     0.000000  softPFMuonsTagInfosAK8PFPuppiSoftDropSubjets
+TimeReport   0.000000     0.000000     0.000000  softPFMuonsTagInfosAK8Puppi
+TimeReport   0.000000     0.000000     0.000000  softPFMuonsTagInfosPuppi
+TimeReport   0.000000     0.000000     0.000000  tauGenJetMatch
+TimeReport   0.000000     0.000000     0.000000  tauGenJetMatchBoosted
+TimeReport   0.000000     0.000000     0.000000  tauGenJets
+TimeReport   0.000000     0.000000     0.000000  tauGenJetsBoosted
+TimeReport   0.000000     0.000000     0.000000  tauGenJetsSelectorAllHadrons
+TimeReport   0.000000     0.000000     0.000000  tauGenJetsSelectorAllHadronsBoosted
+TimeReport   0.000000     0.000000     0.000000  tauMatch
+TimeReport   0.000000     0.000000     0.000000  tauMatchBoosted
+TimeReport   0.000000     0.000000     0.000000  tmpPFCandCollPtrNoHF
+TimeReport   0.000000     0.000000     0.000000  toomanystripclus53X
+TimeReport   0.000000     0.000000     0.000000  updatedPatJetsSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  updatedPatJetsSlimmedDeepFlavour
+TimeReport   0.000000     0.000000     0.000000  updatedPatJetsTransientCorrectedSlimmedAK8DeepTags
+TimeReport   0.000000     0.000000     0.000000  updatedPatJetsTransientCorrectedSlimmedDeepFlavour
+TimeReport  per event     per exec    per visit  Name
+
+T---Report end!
+
+TimeReport> Time report complete in 72.8547 seconds
+ Time Summary: 
+ - Min event:   1e+06
+ - Max event:   0
+ - Avg event:   0
+ - Total loop:  0
+ - Total init:  72.8213
+ - Total job:   72.8547
+ - EventSetup Lock:   0
+ - EventSetup Get:   0
+ Event Throughput: 0 ev/s
+ CPU Summary: 
+ - Total loop:  0
+ - Total init:  33.0673
+ - Total extra: 0
+ - Total job:   33.0983
+ Processing Summary: 
+ - Number of Events:  0
+ - Number of Global Begin Lumi Calls:  0
+ - Number of Global Begin Run Calls: 0
+
+MemoryReport> Peak virtual size 0 Mbytes
+ Key events increasing vsize: 
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+[0] run: 0 lumi: 0 event: 0  vsize = 0 deltaVsize = 0 rss = 0 delta = 0
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 TimeReport           -e AfterModEndJob                         1        1
+    2 MemoryReport         -s AfterModEndJob                         1        1
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 TimeReport           EndJob                            
+    2 MemoryReport         EndJob                            
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Error                   1                   1
+System                  1                   1
+
+dropped waiting message count 0
