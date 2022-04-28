@@ -74,7 +74,7 @@ cp ${CMSSW_BASE}/src/sonic-workflows/triton-inference-client.xml $CMSSW_BASE/con
 # get packages and build
 cd ${CMSSW_BASE}/src
 scram setup triton-inference-client
-git cms-checkout-topic $ACCESS_CMSSW kpedro88:TritonRaggedBatching
+git cms-checkout-topic $ACCESS_CMSSW nirmalthomas2609:TritonRagged
 scram b checkdeps
 git cms-addpkg HeterogeneousCore/SonicTriton
 git clone ${ACCESS_GITHUB}kpedro88/HeterogeneousCore-SonicTriton -b ragged HeterogeneousCore/SonicTriton/data
