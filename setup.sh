@@ -74,12 +74,14 @@ cp ${CMSSW_BASE}/src/sonic-workflows/triton-inference-client.xml $CMSSW_BASE/con
 # get packages and build
 cd ${CMSSW_BASE}/src
 scram setup triton-inference-client
-git cms-checkout-topic $ACCESS_CMSSW nirmalthomas2609:dev/particlenet-ragged
+git cms-checkout-topic $ACCESS_CMSSW nirmalthomas2609:dev/TritonRagged-addSuffixModelName
 scram b checkdeps
 git cms-addpkg HeterogeneousCore/SonicTriton
 git clone ${ACCESS_GITHUB}kpedro88/HeterogeneousCore-SonicTriton -b ragged HeterogeneousCore/SonicTriton/data
+
+scram b -j ${CORES}
+
 mkdir -p RecoBTag/Combined/data/particlenet_modelsForSonic
 git clone ${ACCESS_GITHUB}nirmalthomas2609/sonic-models -b dev/ragged-cpu-export-onnx-name-ragged RecoBTag/Combined/data/particlenet_modelsForSonic/
 cp -r RecoBTag/Combined/data/particlenet_modelsForSonic/models/* RecoBTag/Combined/data/particlenet_modelsForSonic/
 rm -r RecoBTag/Combined/data/particlenet_modelsForSonic/models
-scram b -j ${CORES}
